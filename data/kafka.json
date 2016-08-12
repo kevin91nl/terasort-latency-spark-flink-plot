@@ -1,0 +1,52 @@
+[
+  {
+    "name": "filter_duplicates_1_100000000",
+    "platform": "kafka",
+    "type": "bytes",
+    "size": "1",
+    "messages": "100000000",
+    "command": "kafka-topics --create --zookeeper haperf103:2181 --partitions 1 --replication-factor 1 --topic filter_duplicates_1_100000000",
+    "start": "",
+    "end": ""
+  },
+  {
+    "name": "filter_duplicates_1000_6000000",
+    "platform": "kafka",
+    "type": "bytes",
+    "size": "1000",
+    "messages": "6000000",
+    "command": "kafka-topics --create --zookeeper haperf103:2181 --partitions 1 --replication-factor 1 --topic filter_duplicates_1000_6000000",
+    "start": "",
+    "end": ""
+  },
+  {
+    "name": "filter_duplicates_1000000_6000",
+    "platform": "kafka",
+    "type": "bytes",
+    "size": "1000000",
+    "messages": "6000",
+    "command": "kafka-topics --create --zookeeper haperf103:2181 --partitions 1 --replication-factor 1 --topic filter_duplicates_1000000_6000",
+    "start": "",
+    "end": ""
+  },
+  {
+    "name": "latency_1_1",
+    "platform": "kafka",
+    "type": "bytes",
+    "size": "1",
+    "messages": "1",
+    "command": "kafka-topics --create --zookeeper haperf103:2181 --partitions 1 --replication-factor 1 --topic latency_1_1",
+    "start": "",
+    "end": ""
+  },
+  {
+    "name": "latency_1000_1",
+    "platform": "kafka",
+    "type": "bytes",
+    "size": "1000",
+    "messages": "1",
+    "command": "kafka-topics --create --zookeeper haperf103:2181 --partitions 1 --replication-factor 1 --topic latency_1000_1",
+    "start": "",
+    "end": ""
+  }
+]
